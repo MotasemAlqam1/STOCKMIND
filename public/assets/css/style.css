@@ -1,0 +1,58 @@
+
+/* STOCKMIND - Global Styles */
+
+:root {
+    --primary-color: #2563eb;
+    --text-color: #0f172a;
+    --secondary-text: #64748b;
+    --background-color: #ffffff;
+    --section-background: #f8fafc;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.navbar {
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* =====================================
+   Smooth Scrolling
+===================================== */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}

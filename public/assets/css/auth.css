@@ -1,0 +1,269 @@
+
+/* =====================================
+   STOCKMIND - AUTHENTICATION PAGES
+===================================== */
+
+.auth-page {
+    background-color: #f1f5f9;
+}
+
+/* Page Wrapper */
+
+.auth-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+/* Main Container */
+
+.auth-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+}
+
+/* Form Panel */
+
+.auth-form-panel {
+    padding: 55px;
+}
+
+/* Logo */
+
+.auth-brand {
+    color: var(--text-color);
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.auth-brand span {
+    color: var(--primary-color);
+}
+
+/* Form Headings */
+
+.auth-title {
+    color: var(--text-color);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.auth-description {
+    color: var(--secondary-text);
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+/* Form Fields */
+
+.auth-form-panel .form-label {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.auth-form-panel .form-control {
+    min-height: 48px;
+    border-radius: 10px;
+}
+
+.auth-form-panel .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+/* Submit Button */
+
+.auth-submit {
+    min-height: 48px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+/* Bottom Links */
+
+.auth-bottom-text {
+    color: var(--secondary-text);
+}
+
+.auth-bottom-text a,
+.auth-back-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.auth-bottom-text a:hover,
+.auth-back-link:hover {
+    text-decoration: underline;
+}
+
+.auth-back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* =====================================
+   RIGHT INFORMATION PANEL
+===================================== */
+
+.auth-info-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 600px;
+    padding: 50px;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #1e40af
+    );
+
+    color: #ffffff;
+}
+
+.auth-info-content {
+    max-width: 400px;
+    text-align: center;
+}
+
+.auth-info-icon {
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+.auth-info-content h2 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.auth-info-content > p {
+    color: #dbeafe;
+    line-height: 1.9;
+}
+
+.auth-stat {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.auth-stat h3 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.auth-stat span {
+    color: #dbeafe;
+    font-size: 14px;
+}
+
+.auth-demo-note {
+    font-size: 12px;
+}
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (max-width: 991.98px) {
+
+    .auth-form-panel {
+        padding: 40px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .auth-wrapper {
+        padding: 15px 0;
+    }
+
+    .auth-form-panel {
+        padding: 30px 20px;
+    }
+
+    .auth-title {
+        font-size: 27px;
+    }
+
+    .auth-brand {
+        font-size: 24px;
+    }
+
+}
+
+
+/* =====================================
+   STOCKMIND - REGISTER PAGE
+===================================== */
+
+/* Registration Form Panel */
+
+.register-form-panel {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Section Headings */
+
+.register-section-title {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 700;
+
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Select Field */
+
+.register-form-panel .form-select {
+    min-height: 48px;
+    border-radius: 10px;
+}
+
+.register-form-panel .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+/* Right Panel */
+
+.register-info-panel {
+    min-height: 100%;
+}
+
+.register-benefits {
+    text-align: right;
+}
+
+.register-benefits p {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+/* Responsive */
+
+@media (max-width: 575.98px) {
+
+    .register-form-panel {
+        padding: 30px 20px;
+    }
+
+    .register-section-title {
+        font-size: 17px;
+    }
+
+}

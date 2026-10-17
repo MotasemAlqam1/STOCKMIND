@@ -1,0 +1,571 @@
+
+/* ==========================================
+   STOCKMIND - LANDING PAGE STYLES
+   ========================================== */
+
+
+/* ==========================================
+   1. HERO SECTION
+   ========================================== */
+
+.hero-section {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(
+        135deg,
+        #f8fafc 0%,
+        #eff6ff 100%
+    );
+}
+
+/* Hero Badge */
+
+.hero-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: #dbeafe;
+    color: #1d4ed8;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Hero Content */
+
+.hero-title {
+    font-size: clamp(32px, 4vw, 54px);
+    font-weight: 800;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+
+.hero-title span {
+    color: var(--primary-color);
+}
+
+.hero-description {
+    font-size: 17px;
+    color: var(--secondary-text);
+    line-height: 1.9;
+    max-width: 530px;
+}
+
+.hero-note {
+    color: var(--secondary-text);
+    font-size: 14px;
+}
+
+/* Hero Dashboard Preview */
+
+.hero-dashboard {
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(15, 23, 42, 0.1);
+}
+
+.preview-stat {
+    background-color: #f8fafc;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.preview-stat h4 {
+    color: var(--primary-color);
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.preview-stat p {
+    color: var(--secondary-text);
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.preview-footer {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 15px;
+    color: var(--secondary-text);
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* ==========================================
+   2. SHARED LANDING SECTION HEADINGS
+   ========================================== */
+
+.section-label {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.section-title {
+    color: var(--text-color);
+    font-size: clamp(28px, 3vw, 40px);
+    font-weight: 800;
+}
+
+.section-description {
+    color: var(--secondary-text);
+    font-size: 16px;
+    line-height: 1.9;
+    max-width: 650px;
+}
+
+
+/* ==========================================
+   3. FEATURES SECTION
+   ========================================== */
+
+.features-section {
+    background-color: #ffffff;
+}
+
+.feature-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    background-color: #ffffff;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    border-color: #bfdbfe;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.feature-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 58px;
+    height: 58px;
+    margin-bottom: 22px;
+
+    background-color: #eff6ff;
+    border-radius: 14px;
+    font-size: 28px;
+}
+
+.feature-title {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.feature-description {
+    color: var(--secondary-text);
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   4. HOW IT WORKS SECTION
+   ========================================== */
+
+.how-it-works-section {
+    background-color: #f8fafc;
+}
+
+.process-card {
+    position: relative;
+    padding: 32px 26px;
+
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    text-align: center;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.process-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.07);
+}
+
+/* Process Number */
+
+.process-number {
+    position: absolute;
+    top: 20px;
+    right: 22px;
+
+    font-size: 15px;
+    font-weight: 800;
+    color: #94a3b8;
+}
+
+/* Process Icon */
+
+.process-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 74px;
+    height: 74px;
+
+    margin: 12px auto 24px;
+    border-radius: 18px;
+
+    background-color: #eff6ff;
+    font-size: 34px;
+}
+
+/* Process Content */
+
+.process-title {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.process-description {
+    color: var(--secondary-text);
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   5. PRICING SECTION - COMPACT VERSION
+   ========================================== */
+
+.pricing-section {
+    background-color: #ffffff;
+}
+
+/* Pricing Cards */
+
+.pricing-card {
+    position: relative;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    background-color: #ffffff;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08);
+}
+
+/*
+   Reduce Bootstrap p-4 spacing
+   inside pricing cards only.
+*/
+
+.pricing-section .pricing-card .card-body {
+    padding: 20px !important;
+}
+
+/* Popular Plan */
+
+.pricing-popular {
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 15px 40px rgba(37, 99, 235, 0.1);
+}
+
+.popular-badge {
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 7px 18px;
+    border-radius: 50px;
+
+    background-color: var(--primary-color);
+    color: #ffffff;
+
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* Plan Details */
+
+.pricing-plan {
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.pricing-description {
+    color: var(--secondary-text);
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.pricing-amount {
+    color: var(--text-color);
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.pricing-amount small {
+    color: var(--secondary-text);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pricing-yearly {
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+/* Pricing Features */
+
+.pricing-features {
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.pricing-features li {
+    padding: 6px 0;
+    color: var(--secondary-text);
+    font-size: 15px;
+}
+
+
+/* ==========================================
+   6. CTA SECTION
+   ========================================== */
+
+.cta-section {
+    background: linear-gradient(
+        135deg,
+        #1d4ed8 0%,
+        #2563eb 55%,
+        #1e40af 100%
+    );
+}
+
+.cta-label {
+    color: #bfdbfe;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cta-title {
+    color: #ffffff;
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.cta-description {
+    color: #dbeafe;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.cta-primary-btn {
+    color: #1d4ed8;
+    font-weight: 700;
+}
+
+.cta-primary-btn:hover {
+    color: #1e40af;
+}
+
+
+/* ==========================================
+   7. FOOTER
+   ========================================== */
+
+.site-footer {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    padding: 70px 0 25px;
+}
+
+/* Footer Brand */
+
+.footer-brand {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.footer-brand span {
+    color: #60a5fa;
+}
+
+/* Footer Description */
+
+.footer-description {
+    max-width: 390px;
+    color: #94a3b8;
+    line-height: 1.9;
+    font-size: 15px;
+}
+
+/* Footer Headings */
+
+.footer-heading {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+/* Footer Links */
+
+.footer-links li {
+    margin-bottom: 14px;
+}
+
+.footer-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+    color: #ffffff;
+}
+
+/* Footer Bottom */
+
+.footer-bottom {
+    border-top: 1px solid #334155;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+
+/* ==========================================
+   8. RESPONSIVE - TABLET
+   ========================================== */
+
+@media (max-width: 991.98px) {
+
+    .hero-section {
+        min-height: auto;
+    }
+
+    .hero-title {
+        font-size: 36px;
+    }
+
+}
+
+
+/* ==========================================
+   9. RESPONSIVE - MOBILE
+   ========================================== */
+
+@media (max-width: 575.98px) {
+
+    /* Hero */
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .preview-stat {
+        padding: 14px 8px;
+    }
+
+    /* Shared Section Headings */
+
+    .section-title {
+        font-size: 27px;
+    }
+
+    /* Features */
+
+    .feature-title {
+        font-size: 18px;
+    }
+
+    /* How It Works */
+
+    .process-card {
+        padding: 28px 20px;
+    }
+
+    .process-title {
+        font-size: 18px;
+    }
+
+    /* Pricing */
+
+    .pricing-amount {
+        font-size: 34px;
+    }
+
+    .pricing-card {
+        margin-top: 12px;
+    }
+
+    /* CTA */
+
+    .cta-description {
+        font-size: 15px;
+    }
+
+    /* Footer */
+
+    .site-footer {
+        padding-top: 50px;
+    }
+
+    .footer-brand {
+        font-size: 23px;
+    }
+
+}
+
+
+/* ==========================================
+   10. ACCESSIBILITY - REDUCED MOTION
+   ========================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .feature-card,
+    .process-card,
+    .pricing-card,
+    .footer-links a {
+        transition: none;
+    }
+
+    .feature-card:hover,
+    .process-card:hover,
+    .pricing-card:hover {
+        transform: none;
+    }
+
+}
