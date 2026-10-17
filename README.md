@@ -149,3 +149,27 @@ Graduation Project - 2026
 STOCKMIND is currently an educational project.
 The frontend uses simulated data and is not ready
 for production use.
+
+
+## Database Design
+
+The database schema is available in the `database/` folder.
+
+- `smart_auto_parts.sql` - MySQL/MariaDB database structure
+- `STOCKMIND-ERD.pdf` - Entity Relationship Diagram
+
+The current schema contains 12 tables and uses
+Primary Keys, Foreign Keys, and relational constraints.
+
+### Import Database
+
+1. Start Apache and MySQL using XAMPP.
+2. Open phpMyAdmin.
+3. Create a database named `smart_auto_parts`.
+4. Select the new database.
+5. Open the Import tab.
+6. Select `database/smart_auto_parts.sql`.
+7. Click Import.
+
+Note: The SQL file contains the database structure,
+not application records.
